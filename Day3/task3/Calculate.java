@@ -15,9 +15,5 @@ public class Calculate
 			return null;
 		}
 	}
-	public double calculateRent(Rentals item)
-	{
-		double rent = item.getPerDayRent()* item.getNodays();
-		return rent;
-	}
+	
 }
