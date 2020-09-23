@@ -48,6 +48,11 @@ public class ServiceImplementation implements HospitalService{
 
 	public Set<Patient> getAllAppointments(Doctor doctor) {
 		// TODO Auto-generated method stub
+		if(!appointmentList.containsKey(doctor)){
+			System.out.println("There are no appointments");
+			return null;
+		}
+		
 		Set<Patient> set = new HashSet<Patient>();
 		set = appointmentList.get(doctor);
 		
