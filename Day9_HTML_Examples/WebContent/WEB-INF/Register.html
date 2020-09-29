@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New User Registration</title>
+</head>
+<body>
+<header>
+
+<section>
+<form action="index.html" method = "get">
+	<div>
+		<label>First Name</label>
+		<input type="text" name ="FirstName" required="required">
+	</div>
+	<div>
+		<label>Last Name</label>
+		<input type="text" name ="lastName" required="required">
+	</div>
+	<div>
+		<label>Email</label>
+		<input type="email" name ="email" required="required">
+	</div>
+	<div>
+		<label>PassWord</label>
+		<input type="password" name ="passWord" required="required">
+	</div> 
+	<div>
+	 <label for="cities">Choose a city:</label>
+     <select id="city" name="city" required="required">
+     <option value="">None</option>
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Bangalore">Bangalore</option>
+    </select> 	
+	</div>
+	<div>
+	 <p>Please select your Marital Status:</p>
+  <input type="radio" id="married" name="status" value="married">
+  <label for="male">Married</label><br>
+  <input type="radio" id="single" name="status" value="single">
+  <label for="single">Single</label><br>
+	</div> 
+	<div> 
+	<p>Please select your interests:</p>
+	 <input type="checkbox" id="interest1" name="interest1" value="Sports">
+  <label for="interest1">Sports</label><br>
+   <input type="checkbox" id="interest2" name="interest2" value="Music">
+  <label for="interest2">Music</label><br>
+   <input type="checkbox" id="interest3" name="interest3" value="Politics">
+  <label for="interest3">Politics</label><br>
+	</div>
+	<div>
+		<input type ="reset">
+		<input type="submit" value="Submit">
+	</div>
+</form> 
+	
+</section>
+
+</header>
+</body>
+</html>
